@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+        <h1>Lista de Tarefas</h1>
+        <img src="https://images.vexels.com/media/users/3/313504/isolated/preview/2f7ab7e27bab82e4617e7d10e061c5ab-papa-is-e-papela-o-para-listas-de-tarefas.png">
+        </header>
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Adicione sua tarefa" required>
+            <button type="submit">Adicionar</button>
+        </form>
+
+        <ul id="task-list"></ul>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
